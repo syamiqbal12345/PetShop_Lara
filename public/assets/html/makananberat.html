@@ -1,0 +1,1447 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US>
+
+<div class=WordSection1>
+
+<p class=MsoNormal>&lt;!DOCTYPE html&gt;</p>
+
+<p class=MsoNormal>&lt;html lang=&quot;en&quot;&gt;</p>
+
+<p class=MsoNormal>&lt;head&gt;</p>
+
+<p class=MsoNormal>    &lt;meta http-equiv=&quot;X-UA-Compatible&quot;
+content=&quot;IE=edge&quot; /&gt;</p>
+
+<p class=MsoNormal>    &lt;title&gt;UMKM&lt;/title&gt;</p>
+
+<p class=MsoNormal>    &lt;meta content='width=device-width, initial-scale=1.0,
+shrink-to-fit=no' name='viewport' /&gt;</p>
+
+<p class=MsoNormal>    &lt;link rel=&quot;icon&quot;
+href=&quot;../assets/img/icon.ico&quot; type=&quot;image/x-icon&quot;/&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;!-- Fonts and icons --&gt;</p>
+
+<p class=MsoNormal>    &lt;script
+src=&quot;../assets/js/plugin/webfont/webfont.min.js&quot;&gt;&lt;/script&gt;</p>
+
+<p class=MsoNormal>    &lt;script&gt;</p>
+
+<p class=MsoNormal>        WebFont.load({</p>
+
+<p class=MsoNormal>            google:
+{&quot;families&quot;:[&quot;Lato:300,400,700,900&quot;]},</p>
+
+<p class=MsoNormal>            custom:
+{&quot;families&quot;:[&quot;Flaticon&quot;, &quot;Font Awesome 5 Solid&quot;,
+&quot;Font Awesome 5 Regular&quot;, &quot;Font Awesome 5 Brands&quot;,
+&quot;simple-line-icons&quot;], urls: ['../assets/css/fonts.min.css']},</p>
+
+<p class=MsoNormal>            active: function() {</p>
+
+<p class=MsoNormal>                sessionStorage.fonts = true;</p>
+
+<p class=MsoNormal>            }</p>
+
+<p class=MsoNormal>        });</p>
+
+<p class=MsoNormal>    &lt;/script&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;!-- CSS Files --&gt;</p>
+
+<p class=MsoNormal>    &lt;link rel=&quot;stylesheet&quot;
+href=&quot;../assets/css/bootstrap.min.css&quot;&gt;</p>
+
+<p class=MsoNormal>    &lt;link rel=&quot;stylesheet&quot;
+href=&quot;../assets/css/atlantis.min.css&quot;&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;!-- CSS Just for demo purpose, don't include it in
+your project --&gt;</p>
+
+<p class=MsoNormal>    &lt;link rel=&quot;stylesheet&quot;
+href=&quot;../assets/css/demo.css&quot;&gt;</p>
+
+<p class=MsoNormal>&lt;/head&gt;</p>
+
+<p class=MsoNormal>&lt;body&gt;</p>
+
+<p class=MsoNormal>    &lt;div class=&quot;wrapper&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;main-header&quot;&gt;</p>
+
+<p class=MsoNormal>            &lt;!-- Logo Header --&gt;</p>
+
+<p class=MsoNormal>            &lt;div class=&quot;logo-header&quot;
+data-background-color=&quot;blue&quot;&gt;</p>
+
+<p class=MsoNormal>                </p>
+
+<p class=MsoNormal>                &lt;a href=&quot;index.html&quot;
+class=&quot;logo&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;img
+src=&quot;../assets/img/logo.svg&quot; alt=&quot;navbar brand&quot;
+class=&quot;navbar-brand&quot;&gt;</p>
+
+<p class=MsoNormal>                &lt;/a&gt;</p>
+
+<p class=MsoNormal>                &lt;button class=&quot;navbar-toggler
+sidenav-toggler ml-auto&quot; type=&quot;button&quot;
+data-toggle=&quot;collapse&quot; data-target=&quot;collapse&quot;
+aria-expanded=&quot;false&quot; aria-label=&quot;Toggle navigation&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;span
+class=&quot;navbar-toggler-icon&quot;&gt;</p>
+
+<p class=MsoNormal>                        &lt;i
+class=&quot;icon-menu&quot;&gt;&lt;/i&gt;</p>
+
+<p class=MsoNormal>                    &lt;/span&gt;</p>
+
+<p class=MsoNormal>                &lt;/button&gt;</p>
+
+<p class=MsoNormal>                &lt;button class=&quot;topbar-toggler
+more&quot;&gt;&lt;i
+class=&quot;icon-options-vertical&quot;&gt;&lt;/i&gt;&lt;/button&gt;</p>
+
+<p class=MsoNormal>                &lt;div class=&quot;nav-toggle&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;button class=&quot;btn btn-toggle
+toggle-sidebar&quot;&gt;</p>
+
+<p class=MsoNormal>                        &lt;i
+class=&quot;icon-menu&quot;&gt;&lt;/i&gt;</p>
+
+<p class=MsoNormal>                    &lt;/button&gt;</p>
+
+<p class=MsoNormal>                &lt;/div&gt;</p>
+
+<p class=MsoNormal>            &lt;/div&gt;</p>
+
+<p class=MsoNormal>            &lt;!-- End Logo Header --&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>            &lt;!-- Navbar Header --&gt;</p>
+
+<p class=MsoNormal>            &lt;nav class=&quot;navbar navbar-header
+navbar-expand-lg&quot; data-background-color=&quot;blue2&quot;&gt;</p>
+
+<p class=MsoNormal>                </p>
+
+<p class=MsoNormal>                &lt;div
+class=&quot;container-fluid&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;div class=&quot;collapse&quot;
+id=&quot;search-nav&quot;&gt;</p>
+
+<p class=MsoNormal>                        &lt;form class=&quot;navbar-left
+navbar-form nav-search mr-md-3&quot;&gt;</p>
+
+<p class=MsoNormal>                            &lt;div
+class=&quot;input-group&quot;&gt;</p>
+
+<p class=MsoNormal>                                &lt;div
+class=&quot;input-group-prepend&quot;&gt;</p>
+
+<p class=MsoNormal>                                    &lt;button
+type=&quot;submit&quot; class=&quot;btn btn-search pr-1&quot;&gt;</p>
+
+<p class=MsoNormal>                                        &lt;i class=&quot;fa
+fa-search search-icon&quot;&gt;&lt;/i&gt;</p>
+
+<p class=MsoNormal>                                    &lt;/button&gt;</p>
+
+<p class=MsoNormal>                                &lt;/div&gt;</p>
+
+<p class=MsoNormal>                                &lt;input
+type=&quot;text&quot; placeholder=&quot;Search ...&quot; class=&quot;form-control&quot;&gt;</p>
+
+<p class=MsoNormal>                            &lt;/div&gt;</p>
+
+<p class=MsoNormal>                        &lt;/form&gt;</p>
+
+<p class=MsoNormal>                    &lt;/div&gt;</p>
+
+<p class=MsoNormal>                    &lt;ul class=&quot;navbar-nav topbar-nav
+ml-md-auto align-items-center&quot;&gt;</p>
+
+<p class=MsoNormal>                        &lt;li class=&quot;nav-item
+toggle-nav-search hidden-caret&quot;&gt;</p>
+
+<p class=MsoNormal>                            &lt;a class=&quot;nav-link&quot;
+data-toggle=&quot;collapse&quot; href=&quot;#search-nav&quot;
+role=&quot;button&quot; aria-expanded=&quot;false&quot;
+aria-controls=&quot;search-nav&quot;&gt;</p>
+
+<p class=MsoNormal>                                &lt;i class=&quot;fa
+fa-search&quot;&gt;&lt;/i&gt;</p>
+
+<p class=MsoNormal>                            &lt;/a&gt;</p>
+
+<p class=MsoNormal>                        &lt;/li&gt;</p>
+
+<p class=MsoNormal>                        &lt;li class=&quot;nav-item dropdown
+hidden-caret&quot;&gt;</p>
+
+<p class=MsoNormal>                            &lt;a class=&quot;nav-link
+dropdown-toggle&quot; href=&quot;#&quot; id=&quot;messageDropdown&quot;
+role=&quot;button&quot; data-toggle=&quot;dropdown&quot;
+aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;</p>
+
+<p class=MsoNormal>                                &lt;i class=&quot;fa
+fa-envelope&quot;&gt;&lt;/i&gt;</p>
+
+<p class=MsoNormal>                            &lt;/a&gt;</p>
+
+<p class=MsoNormal>                            &lt;ul class=&quot;dropdown-menu
+messages-notif-box animated fadeIn&quot;
+aria-labelledby=&quot;messageDropdown&quot;&gt;</p>
+
+<p class=MsoNormal>                                &lt;li&gt;</p>
+
+<p class=MsoNormal>                                    &lt;div
+class=&quot;dropdown-title d-flex justify-content-between
+align-items-center&quot;&gt;</p>
+
+<p class=MsoNormal>                                       
+Messages                                    </p>
+
+<p class=MsoNormal>                                        &lt;a
+href=&quot;#&quot; class=&quot;small&quot;&gt;Mark all as read&lt;/a&gt;</p>
+
+<p class=MsoNormal>                                    &lt;/div&gt;</p>
+
+<p class=MsoNormal>                                &lt;/li&gt;</p>
+
+<p class=MsoNormal>                                &lt;li&gt;</p>
+
+<p class=MsoNormal>                                    &lt;div
+class=&quot;message-notif-scroll scrollbar-outer&quot;&gt;</p>
+
+<p class=MsoNormal>                                        &lt;div
+class=&quot;notif-center&quot;&gt;</p>
+
+<p class=MsoNormal>                                            &lt;a
+href=&quot;#&quot;&gt;</p>
+
+<p class=MsoNormal>                                                &lt;div
+class=&quot;notif-img&quot;&gt; </p>
+
+<p class=MsoNormal>                                                    &lt;img
+src=&quot;../assets/img/profile4.jpg&quot; alt=&quot;Img Profile&quot;&gt;</p>
+
+<p class=MsoNormal>                                                &lt;/div&gt;</p>
+
+<p class=MsoNormal>                                                &lt;div
+class=&quot;notif-content&quot;&gt;</p>
+
+<p class=MsoNormal>                                                    &lt;span
+class=&quot;subject&quot;&gt;Farid Majid&lt;/span&gt;</p>
+
+<p class=MsoNormal>                                                    &lt;span
+class=&quot;block&quot;&gt;</p>
+
+<p class=MsoNormal>                                                        Hai
+Iqbal ?</p>
+
+<p class=MsoNormal>                                                    &lt;/span&gt;</p>
+
+<p class=MsoNormal>                                                    &lt;span
+class=&quot;time&quot;&gt;5 minutes ago&lt;/span&gt; </p>
+
+<p class=MsoNormal>                                                &lt;/div&gt;</p>
+
+<p class=MsoNormal>                                            &lt;/a&gt;</p>
+
+<p class=MsoNormal>                                            &lt;a
+href=&quot;#&quot;&gt;</p>
+
+<p class=MsoNormal>                                                &lt;div
+class=&quot;notif-img&quot;&gt; </p>
+
+<p class=MsoNormal>                                                    &lt;img
+src=&quot;../assets/img/profile4.jpg&quot; alt=&quot;Img Profile&quot;&gt;</p>
+
+<p class=MsoNormal>                                                &lt;/div&gt;</p>
+
+<p class=MsoNormal>                                                &lt;div
+class=&quot;notif-content&quot;&gt;</p>
+
+<p class=MsoNormal>                                                    &lt;span
+class=&quot;subject&quot;&gt;Dewi Dian&lt;/span&gt;</p>
+
+<p class=MsoNormal>                                                    &lt;span
+class=&quot;block&quot;&gt;</p>
+
+<p class=MsoNormal>                                                        Ok,
+Terima Kasih !</p>
+
+<p class=MsoNormal>                                                   
+&lt;/span&gt;</p>
+
+<p class=MsoNormal>                                                    &lt;span
+class=&quot;time&quot;&gt;12 minutes ago&lt;/span&gt; </p>
+
+<p class=MsoNormal>                                                &lt;/div&gt;</p>
+
+<p class=MsoNormal>                                            &lt;/a&gt;</p>
+
+<p class=MsoNormal>                                            &lt;a
+href=&quot;#&quot;&gt;</p>
+
+<p class=MsoNormal>                                                &lt;div
+class=&quot;notif-img&quot;&gt; </p>
+
+<p class=MsoNormal>                                                    &lt;img
+src=&quot;../assets/img/profile4.jpg&quot; alt=&quot;Img Profile&quot;&gt;</p>
+
+<p class=MsoNormal>                                                &lt;/div&gt;</p>
+
+<p class=MsoNormal>                                                &lt;div
+class=&quot;notif-content&quot;&gt;</p>
+
+<p class=MsoNormal>                                                    &lt;span
+class=&quot;subject&quot;&gt;Wiliam Aryanda&lt;/span&gt;</p>
+
+<p class=MsoNormal>                                                    &lt;span
+class=&quot;block&quot;&gt;</p>
+
+<p class=MsoNormal>                                                       
+Pesan apa bal ?</p>
+
+<p class=MsoNormal>                                                   
+&lt;/span&gt;</p>
+
+<p class=MsoNormal>                                                    &lt;span
+class=&quot;time&quot;&gt;12 minutes ago&lt;/span&gt; </p>
+
+<p class=MsoNormal>                                                &lt;/div&gt;</p>
+
+<p class=MsoNormal>                                            &lt;/a&gt;</p>
+
+<p class=MsoNormal>                                            &lt;a
+href=&quot;#&quot;&gt;</p>
+
+<p class=MsoNormal>                                                &lt;div
+class=&quot;notif-img&quot;&gt; </p>
+
+<p class=MsoNormal>                                                    &lt;img
+src=&quot;../assets/img/profile4.jpg&quot; alt=&quot;Img Profile&quot;&gt;</p>
+
+<p class=MsoNormal>                                                &lt;/div&gt;</p>
+
+<p class=MsoNormal>                                                &lt;div
+class=&quot;notif-content&quot;&gt;</p>
+
+<p class=MsoNormal>                                                    &lt;span
+class=&quot;subject&quot;&gt;Wulan Fitri Anjaswati&lt;/span&gt;</p>
+
+<p class=MsoNormal>                                                    &lt;span
+class=&quot;block&quot;&gt;</p>
+
+<p class=MsoNormal>                                                        Hi,
+Apa Kabar Iqbal ?</p>
+
+<p class=MsoNormal>                                                   
+&lt;/span&gt;</p>
+
+<p class=MsoNormal>                                                    &lt;span
+class=&quot;time&quot;&gt;17 minutes ago&lt;/span&gt; </p>
+
+<p class=MsoNormal>                                                &lt;/div&gt;</p>
+
+<p class=MsoNormal>                                            &lt;/a&gt;</p>
+
+<p class=MsoNormal>                                        &lt;/div&gt;</p>
+
+<p class=MsoNormal>                                    &lt;/div&gt;</p>
+
+<p class=MsoNormal>                                &lt;/li&gt;</p>
+
+<p class=MsoNormal>                                &lt;li&gt;</p>
+
+<p class=MsoNormal>                                    &lt;a
+class=&quot;see-all&quot; href=&quot;javascript:void(0);&quot;&gt;See all
+messages&lt;i class=&quot;fa fa-angle-right&quot;&gt;&lt;/i&gt; &lt;/a&gt;</p>
+
+<p class=MsoNormal>                                &lt;/li&gt;</p>
+
+<p class=MsoNormal>                            &lt;/ul&gt;</p>
+
+<p class=MsoNormal>                        &lt;/li&gt;</p>
+
+<p class=MsoNormal>                        &lt;li class=&quot;nav-item dropdown
+hidden-caret&quot;&gt;</p>
+
+<p class=MsoNormal>                            &lt;a class=&quot;nav-link
+dropdown-toggle&quot; href=&quot;#&quot; id=&quot;notifDropdown&quot;
+role=&quot;button&quot; data-toggle=&quot;dropdown&quot;
+aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;</p>
+
+<p class=MsoNormal>                                &lt;i class=&quot;fa
+fa-bell&quot;&gt;&lt;/i&gt;</p>
+
+<p class=MsoNormal>                                &lt;span
+class=&quot;notification&quot;&gt;4&lt;/span&gt;</p>
+
+<p class=MsoNormal>                            &lt;/a&gt;</p>
+
+<p class=MsoNormal>                            &lt;ul class=&quot;dropdown-menu
+notif-box animated fadeIn&quot; aria-labelledby=&quot;notifDropdown&quot;&gt;</p>
+
+<p class=MsoNormal>                                &lt;li&gt;</p>
+
+<p class=MsoNormal>                                    &lt;div
+class=&quot;dropdown-title&quot;&gt;You have 4 new notification&lt;/div&gt;</p>
+
+<p class=MsoNormal>                                &lt;/li&gt;</p>
+
+<p class=MsoNormal>                                &lt;li&gt;</p>
+
+<p class=MsoNormal>                                    &lt;div
+class=&quot;notif-scroll scrollbar-outer&quot;&gt;</p>
+
+<p class=MsoNormal>                                        &lt;div
+class=&quot;notif-center&quot;&gt;</p>
+
+<p class=MsoNormal>                                            &lt;a
+href=&quot;#&quot;&gt;</p>
+
+<p class=MsoNormal>                                                &lt;div
+class=&quot;notif-icon notif-primary&quot;&gt; &lt;i class=&quot;fa
+fa-user-plus&quot;&gt;&lt;/i&gt; &lt;/div&gt;</p>
+
+<p class=MsoNormal>                                                &lt;div
+class=&quot;notif-content&quot;&gt;</p>
+
+<p class=MsoNormal>                                                    &lt;span
+class=&quot;block&quot;&gt;</p>
+
+<p class=MsoNormal>                                                        Ada
+pesan belum terbaca</p>
+
+<p class=MsoNormal>                                                    &lt;/span&gt;</p>
+
+<p class=MsoNormal>                                                    &lt;span
+class=&quot;time&quot;&gt;5 minutes ago&lt;/span&gt; </p>
+
+<p class=MsoNormal>                                                &lt;/div&gt;</p>
+
+<p class=MsoNormal>                                            &lt;/a&gt;</p>
+
+<p class=MsoNormal>                                            &lt;a
+href=&quot;#&quot;&gt;</p>
+
+<p class=MsoNormal>                                                &lt;div
+class=&quot;notif-icon notif-success&quot;&gt; &lt;i class=&quot;fa
+fa-comment&quot;&gt;&lt;/i&gt; &lt;/div&gt;</p>
+
+<p class=MsoNormal>                                                &lt;div
+class=&quot;notif-content&quot;&gt;</p>
+
+<p class=MsoNormal>                                                    &lt;span
+class=&quot;block&quot;&gt;</p>
+
+<p class=MsoNormal>                                                       
+Rahmad menggirim pesan untuk kamu</p>
+
+<p class=MsoNormal>                                                   
+&lt;/span&gt;</p>
+
+<p class=MsoNormal>                                                    &lt;span
+class=&quot;time&quot;&gt;12 minutes ago&lt;/span&gt; </p>
+
+<p class=MsoNormal>                                                &lt;/div&gt;</p>
+
+<p class=MsoNormal>                                            &lt;/a&gt;</p>
+
+<p class=MsoNormal>                                            &lt;a
+href=&quot;#&quot;&gt;</p>
+
+<p class=MsoNormal>                                                &lt;div
+class=&quot;notif-img&quot;&gt; </p>
+
+<p class=MsoNormal>                                                    &lt;img
+src=&quot;../assets/img/profile4.jpg&quot; alt=&quot;Img Profile&quot;&gt;</p>
+
+<p class=MsoNormal>                                                &lt;/div&gt;</p>
+
+<p class=MsoNormal>                                                &lt;div
+class=&quot;notif-content&quot;&gt;</p>
+
+<p class=MsoNormal>                                                    &lt;span
+class=&quot;block&quot;&gt;</p>
+
+<p class=MsoNormal>                                                        Reza
+menggirim pesan untuk kamu</p>
+
+<p class=MsoNormal>                                                   
+&lt;/span&gt;</p>
+
+<p class=MsoNormal>                                                    &lt;span
+class=&quot;time&quot;&gt;12 minutes ago&lt;/span&gt; </p>
+
+<p class=MsoNormal>                                                &lt;/div&gt;</p>
+
+<p class=MsoNormal>                                            &lt;/a&gt;</p>
+
+<p class=MsoNormal>                                            &lt;a
+href=&quot;#&quot;&gt;</p>
+
+<p class=MsoNormal>                                                &lt;div
+class=&quot;notif-icon notif-danger&quot;&gt; &lt;i class=&quot;fa
+fa-heart&quot;&gt;&lt;/i&gt; &lt;/div&gt;</p>
+
+<p class=MsoNormal>                                                &lt;div
+class=&quot;notif-content&quot;&gt;</p>
+
+<p class=MsoNormal>                                                    &lt;span
+class=&quot;block&quot;&gt;</p>
+
+<p class=MsoNormal>                                                        Farrah
+menggirim pesan untuk kamu</p>
+
+<p class=MsoNormal>                                                   
+&lt;/span&gt;</p>
+
+<p class=MsoNormal>                                                    &lt;span
+class=&quot;time&quot;&gt;17 minutes ago&lt;/span&gt; </p>
+
+<p class=MsoNormal>                                                &lt;/div&gt;</p>
+
+<p class=MsoNormal>                                            &lt;/a&gt;</p>
+
+<p class=MsoNormal>                                        &lt;/div&gt;</p>
+
+<p class=MsoNormal>                                    &lt;/div&gt;</p>
+
+<p class=MsoNormal>                                &lt;/li&gt;</p>
+
+<p class=MsoNormal>                                &lt;li&gt;</p>
+
+<p class=MsoNormal>                                    &lt;a
+class=&quot;see-all&quot; href=&quot;javascript:void(0);&quot;&gt;See all
+notifications&lt;i class=&quot;fa fa-angle-right&quot;&gt;&lt;/i&gt; &lt;/a&gt;</p>
+
+<p class=MsoNormal>                                &lt;/li&gt;</p>
+
+<p class=MsoNormal>                            &lt;/ul&gt;</p>
+
+<p class=MsoNormal>                        &lt;/li&gt;</p>
+
+<p class=MsoNormal>                        &lt;li class=&quot;nav-item dropdown
+hidden-caret&quot;&gt;</p>
+
+<p class=MsoNormal>                            &lt;a
+class=&quot;dropdown-toggle profile-pic&quot; data-toggle=&quot;dropdown&quot;
+href=&quot;#&quot; aria-expanded=&quot;false&quot;&gt;</p>
+
+<p class=MsoNormal>                                &lt;div
+class=&quot;avatar-sm&quot;&gt;</p>
+
+<p class=MsoNormal>                                    &lt;img src=&quot;../assets/img/profile4.jpg&quot;
+alt=&quot;...&quot; class=&quot;avatar-img rounded-circle&quot;&gt;</p>
+
+<p class=MsoNormal>                                &lt;/div&gt;</p>
+
+<p class=MsoNormal>                            &lt;/a&gt;</p>
+
+<p class=MsoNormal>                            &lt;ul class=&quot;dropdown-menu
+dropdown-user animated fadeIn&quot;&gt;</p>
+
+<p class=MsoNormal>                                &lt;div
+class=&quot;dropdown-user-scroll scrollbar-outer&quot;&gt;</p>
+
+<p class=MsoNormal>                                    &lt;li&gt;</p>
+
+<p class=MsoNormal>                                        &lt;div
+class=&quot;user-box&quot;&gt;</p>
+
+<p class=MsoNormal>                                            &lt;div
+class=&quot;avatar-lg&quot;&gt;&lt;img
+src=&quot;../assets/img/profile4.jpg&quot; alt=&quot;image profile&quot;
+class=&quot;avatar-img rounded&quot;&gt;&lt;/div&gt;</p>
+
+<p class=MsoNormal>                                            &lt;div
+class=&quot;u-text&quot;&gt;</p>
+
+<p class=MsoNormal>                                                &lt;h4&gt;M
+Iqbal&lt;/h4&gt;</p>
+
+<p class=MsoNormal>                                                &lt;p
+class=&quot;text-muted&quot;&gt;iqbal.syam12@gmail.com&lt;/p&gt;&lt;a
+href=&quot;profile.html&quot; class=&quot;btn btn-xs btn-secondary
+btn-sm&quot;&gt;View Profile&lt;/a&gt;</p>
+
+<p class=MsoNormal>                                            &lt;/div&gt;</p>
+
+<p class=MsoNormal>                                        &lt;/div&gt;</p>
+
+<p class=MsoNormal>                                    &lt;/li&gt;</p>
+
+<p class=MsoNormal>                                    &lt;li&gt;</p>
+
+<p class=MsoNormal>                                        &lt;div
+class=&quot;dropdown-divider&quot;&gt;&lt;/div&gt;</p>
+
+<p class=MsoNormal>                                        &lt;a
+class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;My Profile&lt;/a&gt;</p>
+
+<p class=MsoNormal>                                        &lt;a
+class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;My Balance&lt;/a&gt;</p>
+
+<p class=MsoNormal>                                        &lt;a
+class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Inbox&lt;/a&gt;</p>
+
+<p class=MsoNormal>                                        &lt;div
+class=&quot;dropdown-divider&quot;&gt;&lt;/div&gt;</p>
+
+<p class=MsoNormal>                                        &lt;a
+class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Account Setting&lt;/a&gt;</p>
+
+<p class=MsoNormal>                                        &lt;div
+class=&quot;dropdown-divider&quot;&gt;&lt;/div&gt;</p>
+
+<p class=MsoNormal>                                        &lt;a
+class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Logout&lt;/a&gt;</p>
+
+<p class=MsoNormal>                                    &lt;/li&gt;</p>
+
+<p class=MsoNormal>                                &lt;/div&gt;</p>
+
+<p class=MsoNormal>                            &lt;/ul&gt;</p>
+
+<p class=MsoNormal>                        &lt;/li&gt;</p>
+
+<p class=MsoNormal>                    &lt;/ul&gt;</p>
+
+<p class=MsoNormal>                &lt;/div&gt;</p>
+
+<p class=MsoNormal>            &lt;/nav&gt;</p>
+
+<p class=MsoNormal>            &lt;!-- End Navbar --&gt;</p>
+
+<p class=MsoNormal>        &lt;/div&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        &lt;!-- Sidebar --&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;sidebar
+sidebar-style-2&quot;&gt;           </p>
+
+<p class=MsoNormal>            &lt;div class=&quot;sidebar-wrapper scrollbar
+scrollbar-inner&quot;&gt;</p>
+
+<p class=MsoNormal>                &lt;div
+class=&quot;sidebar-content&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;div class=&quot;user&quot;&gt;</p>
+
+<p class=MsoNormal>                        &lt;div class=&quot;avatar-sm float-left
+mr-2&quot;&gt;</p>
+
+<p class=MsoNormal>                            &lt;img
+src=&quot;../assets/img/profile4.jpg&quot; alt=&quot;...&quot;
+class=&quot;avatar-img rounded-circle&quot;&gt;</p>
+
+<p class=MsoNormal>                        &lt;/div&gt;</p>
+
+<p class=MsoNormal>                        &lt;div class=&quot;info&quot;&gt;</p>
+
+<p class=MsoNormal>                            &lt;a
+data-toggle=&quot;collapse&quot; href=&quot;#collapseExample&quot;
+aria-expanded=&quot;true&quot;&gt;</p>
+
+<p class=MsoNormal>                                &lt;span&gt;</p>
+
+<p class=MsoNormal>                                    M Iqbal</p>
+
+<p class=MsoNormal>                                    &lt;span
+class=&quot;user-level&quot;&gt;User&lt;/span&gt;</p>
+
+<p class=MsoNormal>                                    &lt;span
+class=&quot;caret&quot;&gt;&lt;/span&gt;</p>
+
+<p class=MsoNormal>                                &lt;/span&gt;</p>
+
+<p class=MsoNormal>                            &lt;/a&gt;</p>
+
+<p class=MsoNormal>                            &lt;div
+class=&quot;clearfix&quot;&gt;&lt;/div&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>                            &lt;div class=&quot;collapse
+in&quot; id=&quot;collapseExample&quot;&gt;</p>
+
+<p class=MsoNormal>                                &lt;ul class=&quot;nav&quot;&gt;</p>
+
+<p class=MsoNormal>                                    &lt;li&gt;</p>
+
+<p class=MsoNormal>                                        &lt;a
+href=&quot;#profile&quot;&gt;</p>
+
+<p class=MsoNormal>                                            &lt;span
+class=&quot;link-collapse&quot;&gt;My Profile&lt;/span&gt;</p>
+
+<p class=MsoNormal>                                        &lt;/a&gt;</p>
+
+<p class=MsoNormal>                                    &lt;/li&gt;</p>
+
+<p class=MsoNormal>                                    &lt;li&gt;</p>
+
+<p class=MsoNormal>                                        &lt;a
+href=&quot;#edit&quot;&gt;</p>
+
+<p class=MsoNormal>                                            &lt;span
+class=&quot;link-collapse&quot;&gt;Edit Profile&lt;/span&gt;</p>
+
+<p class=MsoNormal>                                        &lt;/a&gt;</p>
+
+<p class=MsoNormal>                                    &lt;/li&gt;</p>
+
+<p class=MsoNormal>                                    &lt;li&gt;</p>
+
+<p class=MsoNormal>                                        &lt;a
+href=&quot;#settings&quot;&gt;</p>
+
+<p class=MsoNormal>                                            &lt;span
+class=&quot;link-collapse&quot;&gt;Settings&lt;/span&gt;</p>
+
+<p class=MsoNormal>                                        &lt;/a&gt;</p>
+
+<p class=MsoNormal>                                    &lt;/li&gt;</p>
+
+<p class=MsoNormal>                                &lt;/ul&gt;</p>
+
+<p class=MsoNormal>                            &lt;/div&gt;</p>
+
+<p class=MsoNormal>                        &lt;/div&gt;</p>
+
+<p class=MsoNormal>                    &lt;/div&gt;</p>
+
+<p class=MsoNormal>                    &lt;ul class=&quot;nav
+nav-primary&quot;&gt;</p>
+
+<p class=MsoNormal>                        &lt;li class=&quot;nav-item
+active&quot;&gt;</p>
+
+<p class=MsoNormal>                            &lt;a
+data-toggle=&quot;collapse&quot; href=&quot;#dashboard&quot;
+class=&quot;collapsed&quot; aria-expanded=&quot;false&quot;&gt;</p>
+
+<p class=MsoNormal>                                &lt;i class=&quot;fas
+fa-home&quot;&gt;&lt;/i&gt;</p>
+
+<p class=MsoNormal>                                &lt;p&gt;HALAMAN
+UTAMA&lt;/p&gt;</p>
+
+<p class=MsoNormal>                            &lt;/a&gt;</p>
+
+<p class=MsoNormal>                        &lt;/li&gt;</p>
+
+<p class=MsoNormal>                        &lt;li
+class=&quot;nav-section&quot;&gt;</p>
+
+<p class=MsoNormal>                            &lt;span
+class=&quot;sidebar-mini-icon&quot;&gt;</p>
+
+<p class=MsoNormal>                                &lt;i class=&quot;fa
+fa-ellipsis-h&quot;&gt;&lt;/i&gt;</p>
+
+<p class=MsoNormal>                            &lt;/span&gt;</p>
+
+<p class=MsoNormal>                            &lt;h4
+class=&quot;text-section&quot;&gt;Komponen&lt;/h4&gt;</p>
+
+<p class=MsoNormal>                        &lt;/li&gt;</p>
+
+<p class=MsoNormal>                        &lt;li
+class=&quot;nav-item&quot;&gt;</p>
+
+<p class=MsoNormal>                            &lt;a data-toggle=&quot;collapse&quot;
+href=&quot;#base&quot;&gt;</p>
+
+<p class=MsoNormal>                                &lt;i class=&quot;fas
+fa-layer-group&quot;&gt;&lt;/i&gt;</p>
+
+<p class=MsoNormal>                                &lt;p&gt;Pilihan
+Barang&lt;/p&gt;</p>
+
+<p class=MsoNormal>                                &lt;span
+class=&quot;caret&quot;&gt;&lt;/span&gt;</p>
+
+<p class=MsoNormal>                            &lt;/a&gt;</p>
+
+<p class=MsoNormal>                            &lt;div
+class=&quot;collapse&quot; id=&quot;base&quot;&gt;</p>
+
+<p class=MsoNormal>                                &lt;ul class=&quot;nav
+nav-collapse&quot;&gt;</p>
+
+<p class=MsoNormal>                                    &lt;li&gt;</p>
+
+<p class=MsoNormal>                                        &lt;a
+href=&quot;components/avatars.html&quot;&gt;</p>
+
+<p class=MsoNormal>                                            &lt;span
+class=&quot;sub-item&quot;&gt;Makanan Berat&lt;/span&gt;</p>
+
+<p class=MsoNormal>                                        &lt;/a&gt;</p>
+
+<p class=MsoNormal>                                    &lt;/li&gt;</p>
+
+<p class=MsoNormal>                                    &lt;li&gt;</p>
+
+<p class=MsoNormal>                                        &lt;a
+href=&quot;components/buttons.html&quot;&gt;</p>
+
+<p class=MsoNormal>                                            &lt;span
+class=&quot;sub-item&quot;&gt;Makanan Ringan&lt;/span&gt;</p>
+
+<p class=MsoNormal>                                        &lt;/a&gt;</p>
+
+<p class=MsoNormal>                                    &lt;/li&gt;</p>
+
+<p class=MsoNormal>                                    &lt;li&gt;</p>
+
+<p class=MsoNormal>                                        &lt;a
+href=&quot;components/gridsystem.html&quot;&gt;</p>
+
+<p class=MsoNormal>                                            &lt;span
+class=&quot;sub-item&quot;&gt;Minuman&lt;/span&gt;</p>
+
+<p class=MsoNormal>                                        &lt;/a&gt;</p>
+
+<p class=MsoNormal>                                    &lt;/li&gt;</p>
+
+<p class=MsoNormal>                                    &lt;li&gt;</p>
+
+<p class=MsoNormal>                                        &lt;a
+href=&quot;components/panels.html&quot;&gt;</p>
+
+<p class=MsoNormal>                                            &lt;span
+class=&quot;sub-item&quot;&gt;Kerajinan&lt;/span&gt;</p>
+
+<p class=MsoNormal>                                        &lt;/a&gt;</p>
+
+<p class=MsoNormal>                                    &lt;/li&gt;</p>
+
+<p class=MsoNormal>                                    &lt;li&gt;</p>
+
+<p class=MsoNormal>                                        &lt;a
+href=&quot;components/notifications.html&quot;&gt;</p>
+
+<p class=MsoNormal>                                            &lt;span
+class=&quot;sub-item&quot;&gt;Lain - lain&lt;/span&gt;</p>
+
+<p class=MsoNormal>                                        &lt;/a&gt;</p>
+
+<p class=MsoNormal>                                    &lt;/li&gt;</p>
+
+<p class=MsoNormal>                                &lt;/ul&gt;</p>
+
+<p class=MsoNormal>                            &lt;/div&gt;</p>
+
+<p class=MsoNormal>                        &lt;/li&gt;</p>
+
+<p class=MsoNormal>                        &lt;li
+class=&quot;nav-item&quot;&gt;</p>
+
+<p class=MsoNormal>                            &lt;a
+data-toggle=&quot;collapse&quot; href=&quot;#forms&quot;&gt;</p>
+
+<p class=MsoNormal>                                &lt;i class=&quot;fas
+fa-pen-square&quot;&gt;&lt;/i&gt;</p>
+
+<p class=MsoNormal>                                &lt;p&gt;Edukasi&lt;/p&gt;</p>
+
+<p class=MsoNormal>                                &lt;span
+class=&quot;caret&quot;&gt;&lt;/span&gt;</p>
+
+<p class=MsoNormal>                            &lt;/a&gt;</p>
+
+<p class=MsoNormal>                            &lt;div class=&quot;collapse&quot;
+id=&quot;forms&quot;&gt;</p>
+
+<p class=MsoNormal>                                &lt;ul class=&quot;nav
+nav-collapse&quot;&gt;</p>
+
+<p class=MsoNormal>                                    &lt;li&gt;</p>
+
+<p class=MsoNormal>                                        &lt;a
+class=&quot;nav-link&quot;
+href=&quot;https://www.youtube.com/watch?v=HRVlfz2MSVY&quot;&gt;</p>
+
+<p class=MsoNormal>                                            &lt;span
+class=&quot;sub-item&quot;&gt;Edukasi Video&lt;/span&gt;</p>
+
+<p class=MsoNormal>                                        &lt;/a&gt;</p>
+
+<p class=MsoNormal>                                    &lt;/li&gt;</p>
+
+<p class=MsoNormal>                                    &lt;li&gt;</p>
+
+<p class=MsoNormal>                                        &lt;a
+href=&quot;forms/forms.html&quot;&gt;</p>
+
+<p class=MsoNormal>                                            &lt;span
+class=&quot;sub-item&quot;&gt;Edukasi Seminar&lt;/span&gt;</p>
+
+<p class=MsoNormal>                                        &lt;/a&gt;</p>
+
+<p class=MsoNormal>                                    &lt;/li&gt;</p>
+
+<p class=MsoNormal>                                &lt;/ul&gt;</p>
+
+<p class=MsoNormal>                            &lt;/div&gt;</p>
+
+<p class=MsoNormal>                        &lt;/li&gt;</p>
+
+<p class=MsoNormal>                        &lt;li
+class=&quot;nav-item&quot;&gt;</p>
+
+<p class=MsoNormal>                            &lt;a
+data-toggle=&quot;collapse&quot; href=&quot;#tables&quot;&gt;</p>
+
+<p class=MsoNormal>                                &lt;i class=&quot;fas
+fa-table&quot;&gt;&lt;/i&gt;</p>
+
+<p class=MsoNormal>                                &lt;p&gt;Sosmed
+Promosi&lt;/p&gt;</p>
+
+<p class=MsoNormal>                                &lt;span
+class=&quot;caret&quot;&gt;&lt;/span&gt;</p>
+
+<p class=MsoNormal>                            &lt;/a&gt;</p>
+
+<p class=MsoNormal>                            &lt;div
+class=&quot;collapse&quot; id=&quot;tables&quot;&gt;</p>
+
+<p class=MsoNormal>                                &lt;ul class=&quot;nav
+nav-collapse&quot;&gt;</p>
+
+<p class=MsoNormal>                                    &lt;li&gt;</p>
+
+<p class=MsoNormal>                                        &lt;a
+class=&quot;nav-link&quot;
+href=&quot;https://www.instagram.com/wiliam_aryanda&quot;&gt;</p>
+
+<p class=MsoNormal>                                            &lt;span
+class=&quot;sub-item&quot;&gt;Instagram&lt;/span&gt;</p>
+
+<p class=MsoNormal>                                        &lt;/a&gt;</p>
+
+<p class=MsoNormal>                                    &lt;/li&gt;</p>
+
+<p class=MsoNormal>                                    &lt;li&gt;</p>
+
+<p class=MsoNormal>                                        &lt;a
+class=&quot;nav-link&quot;
+href=&quot;https://www.facebook.com/profile.php?id=100004740226308&quot;&gt;</p>
+
+<p class=MsoNormal>                                            &lt;span
+class=&quot;sub-item&quot;&gt;Facebook&lt;/span&gt;</p>
+
+<p class=MsoNormal>                                        &lt;/a&gt;</p>
+
+<p class=MsoNormal>                                    &lt;/li&gt;</p>
+
+<p class=MsoNormal>                                &lt;/ul&gt;</p>
+
+<p class=MsoNormal>                            &lt;/div&gt;</p>
+
+<p class=MsoNormal>                        &lt;/li&gt;</p>
+
+<p class=MsoNormal>                        &lt;li
+class=&quot;nav-item&quot;&gt;</p>
+
+<p class=MsoNormal>                            &lt;a
+data-toggle=&quot;collapse&quot; href=&quot;#maps&quot;&gt;</p>
+
+<p class=MsoNormal>                                &lt;i class=&quot;fas
+fa-map-marker-alt&quot;&gt;&lt;/i&gt;</p>
+
+<p class=MsoNormal>                                &lt;p&gt;Maps&lt;/p&gt;</p>
+
+<p class=MsoNormal>                                &lt;span
+class=&quot;caret&quot;&gt;&lt;/span&gt;</p>
+
+<p class=MsoNormal>                            &lt;/a&gt;</p>
+
+<p class=MsoNormal>                            &lt;div
+class=&quot;collapse&quot; id=&quot;maps&quot;&gt;</p>
+
+<p class=MsoNormal>                                &lt;ul class=&quot;nav
+nav-collapse&quot;&gt;</p>
+
+<p class=MsoNormal>                                    &lt;li&gt;</p>
+
+<p class=MsoNormal>                                        &lt;a
+class=&quot;nav-link&quot;
+href=&quot;https://www.google.co.id/maps/place/Kota+Samarinda,+Kalimantan+Timur/@-0.5096845,117.0354397,11z/data=!3m1!4b1!4m5!3m4!1s0x2df5d57d33074935:0xef64e9b06c7ad3e7!8m2!3d-0.5016166!4d117.1264753?hl=id&quot;&gt;</p>
+
+<p class=MsoNormal>                                            &lt;span
+class=&quot;sub-item&quot;&gt;Google Maps&lt;/span&gt;</p>
+
+<p class=MsoNormal>                                        &lt;/a&gt;</p>
+
+<p class=MsoNormal>                                    &lt;/li&gt;</p>
+
+<p class=MsoNormal>                                &lt;/ul&gt;</p>
+
+<p class=MsoNormal>                            &lt;/div&gt;</p>
+
+<p class=MsoNormal>                        &lt;/li&gt;</p>
+
+<p class=MsoNormal>                        &lt;li
+class=&quot;nav-item&quot;&gt;</p>
+
+<p class=MsoNormal>                            &lt;a
+data-toggle=&quot;collapse&quot; href=&quot;#submenu&quot;&gt;</p>
+
+<p class=MsoNormal>                                &lt;i class=&quot;fas
+fa-bars&quot;&gt;&lt;/i&gt;</p>
+
+<p class=MsoNormal>                                &lt;p&gt;About&lt;/p&gt;</p>
+
+<p class=MsoNormal>                                &lt;span
+class=&quot;caret&quot;&gt;&lt;/span&gt;</p>
+
+<p class=MsoNormal>                            &lt;/a&gt;</p>
+
+<p class=MsoNormal>                            &lt;div
+class=&quot;collapse&quot; id=&quot;submenu&quot;&gt;</p>
+
+<p class=MsoNormal>                                &lt;ul class=&quot;nav
+nav-collapse&quot;&gt;</p>
+
+<p class=MsoNormal>                                    &lt;li&gt;</p>
+
+<p class=MsoNormal>                                        &lt;a
+data-toggle=&quot;collapse&quot; href=&quot;../assets/html/CS.html&quot;&gt;</p>
+
+<p class=MsoNormal>                                            &lt;span
+class=&quot;sub-item&quot;&gt;Customer Service&lt;/span&gt;</p>
+
+<p class=MsoNormal>                                        &lt;/a&gt;</p>
+
+<p class=MsoNormal>                                    &lt;/li&gt;</p>
+
+<p class=MsoNormal>                                    &lt;/li&gt;</p>
+
+<p class=MsoNormal>                                &lt;/ul&gt;</p>
+
+<p class=MsoNormal>                            &lt;/div&gt;</p>
+
+<p class=MsoNormal>                        &lt;/li&gt;</p>
+
+<p class=MsoNormal>                    &lt;/ul&gt;</p>
+
+<p class=MsoNormal>                &lt;/div&gt;</p>
+
+<p class=MsoNormal>            &lt;/div&gt;</p>
+
+<p class=MsoNormal>        &lt;/div&gt;</p>
+
+<p class=MsoNormal>        &lt;!-- End Sidebar --&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;main-panel&quot;&gt;</p>
+
+<p class=MsoNormal>            &lt;div class=&quot;content&quot;&gt;</p>
+
+<p class=MsoNormal>                &lt;div class=&quot;panel-header
+bg-primary-gradient&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;div class=&quot;page-inner
+py-5&quot;&gt;</p>
+
+<p class=MsoNormal>                        &lt;div class=&quot;d-flex
+align-items-left align-items-md-center flex-column flex-md-row&quot;&gt;</p>
+
+<p class=MsoNormal>                            &lt;div&gt;</p>
+
+<p class=MsoNormal>                                &lt;h2
+class=&quot;text-white pb-2 fw-bold&quot;&gt;Halaman Utama&lt;/h2&gt;</p>
+
+<p class=MsoNormal>                                &lt;h5
+class=&quot;text-white op-7 mb-2&quot;&gt;Pilih Yang Anda Inginkan
+:)&lt;/h5&gt;</p>
+
+<p class=MsoNormal>                            &lt;/div&gt;</p>
+
+<p class=MsoNormal>                            &lt;div class=&quot;ml-md-auto
+py-2 py-md-0&quot;&gt;</p>
+
+<p class=MsoNormal>                                &lt;a href=&quot;#&quot;
+class=&quot;btn btn-white btn-border btn-round mr-2&quot;&gt;Manage&lt;/a&gt;</p>
+
+<p class=MsoNormal>                                &lt;a href=&quot;#&quot;
+class=&quot;btn btn-secondary btn-round&quot;&gt;Add Customer&lt;/a&gt;</p>
+
+<p class=MsoNormal>                            &lt;/div&gt;</p>
+
+<p class=MsoNormal>                        &lt;/div&gt;</p>
+
+<p class=MsoNormal>                    &lt;/div&gt;</p>
+
+<p class=MsoNormal>                &lt;/div&gt;</p>
+
+<p class=MsoNormal>            &lt;div class=&quot;page-inner mt--5&quot;&gt;</p>
+
+<p class=MsoNormal>                &lt;div class=&quot;card&quot;
+style=&quot;width: 18rem;&quot;&gt;</p>
+
+<p class=MsoNormal>    &lt;img src=&quot;../assets/img/nasigoreng.jpg&quot;
+class=&quot;card-img-top&quot; alt=&quot;gambar&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;card-body&quot;&gt;</p>
+
+<p class=MsoNormal>            &lt;h5 class=&quot;card-title&quot;&gt;Nasi
+Goreng&lt;/h5&gt;</p>
+
+<p class=MsoNormal>                &lt;p class=&quot;card-text&quot;&gt;</p>
+
+<p class=MsoNormal>                Nasi goreng adalah sebuah makanan berupa
+nasi yang digoreng dan diaduk dalam minyak goreng atau margarin, biasanya
+ditambah kecap manis, bawang merah, bawang putih, asam jawa, lada dan
+bumbu-bumbu lainnya, seperti telur, ayam, dan kerupuk.</p>
+
+<p class=MsoNormal>            &lt;/p&gt;</p>
+
+<p class=MsoNormal>        &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;ul class=&quot;list-group list-group-flush&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;li class=&quot;list-group-item&quot;&gt;Harga :
+Rp.15.000.-/Porsi&lt;/li&gt;</p>
+
+<p class=MsoNormal>    &lt;/ul&gt;</p>
+
+<p class=MsoNormal>    &lt;div class=&quot;card-body&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;a href=&quot;#&quot;
+class=&quot;card-link&quot;&gt;Lihat&lt;/a&gt;</p>
+
+<p class=MsoNormal>        &lt;a href=&quot;#&quot;
+class=&quot;card-link&quot;&gt;Beli&lt;/a&gt;</p>
+
+<p class=MsoNormal>    &lt;/div&gt;</p>
+
+<p class=MsoNormal>&lt;/div&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&lt;div class=&quot;card&quot; style=&quot;width:
+18rem;&quot;&gt;</p>
+
+<p class=MsoNormal>    &lt;img src=&quot;../assets/img/gula.jpg&quot;
+class=&quot;card-img-top&quot; alt=&quot;gambar&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;card-body&quot;&gt;</p>
+
+<p class=MsoNormal>            &lt;h5
+class=&quot;card-title&quot;&gt;Gula&lt;/h5&gt;</p>
+
+<p class=MsoNormal>                &lt;p class=&quot;card-text&quot;&gt;</p>
+
+<p class=MsoNormal>                Gula adalah bahan dapur yang digunakan untuk
+memaniskan makanan dan minuman.</p>
+
+<p class=MsoNormal>                &lt;/p&gt;</p>
+
+<p class=MsoNormal>        &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;ul class=&quot;list-group list-group-flush&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;li class=&quot;list-group-item&quot;&gt;Harga : Rp.12.000.-/Kg&lt;/li&gt;</p>
+
+<p class=MsoNormal>    &lt;/ul&gt;</p>
+
+<p class=MsoNormal>    &lt;div class=&quot;card-body&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;a href=&quot;#&quot;
+class=&quot;card-link&quot;&gt;Lihat&lt;/a&gt;</p>
+
+<p class=MsoNormal>        &lt;a href=&quot;#&quot;
+class=&quot;card-link&quot;&gt;Beli&lt;/a&gt;</p>
+
+<p class=MsoNormal>    &lt;/div&gt;</p>
+
+<p class=MsoNormal>&lt;/div&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&lt;div class=&quot;card&quot; style=&quot;width:
+18rem;&quot;&gt;</p>
+
+<p class=MsoNormal>    &lt;img src=&quot;../assets/img/gelang.jpg&quot; class=&quot;card-img-top&quot;
+alt=&quot;gambar&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;card-body&quot;&gt;</p>
+
+<p class=MsoNormal>            &lt;h5 class=&quot;card-title&quot;&gt;Gelang
+Ethnik Dayak&lt;/h5&gt;</p>
+
+<p class=MsoNormal>                &lt;p class=&quot;card-text&quot;&gt;</p>
+
+<p class=MsoNormal>                Gelang Ethnik adalah kerajinan tangan yang
+dibuat oleh masyarakat menggunakan ciri khas adat Dayak.</p>
+
+<p class=MsoNormal>                &lt;/p&gt;</p>
+
+<p class=MsoNormal>        &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;ul class=&quot;list-group list-group-flush&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;li class=&quot;list-group-item&quot;&gt;Harga :
+Rp.30.000.-/Pcs&lt;/li&gt;</p>
+
+<p class=MsoNormal>    &lt;/ul&gt;</p>
+
+<p class=MsoNormal>    &lt;div class=&quot;card-body&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;a href=&quot;#&quot;
+class=&quot;card-link&quot;&gt;Lihat&lt;/a&gt;</p>
+
+<p class=MsoNormal>        &lt;a href=&quot;#&quot;
+class=&quot;card-link&quot;&gt;Beli&lt;/a&gt;</p>
+
+<p class=MsoNormal>    &lt;/div&gt;</p>
+
+<p class=MsoNormal>&lt;/div&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&lt;div class=&quot;card&quot; style=&quot;width:
+18rem;&quot;&gt;</p>
+
+<p class=MsoNormal>    &lt;img src=&quot;../assets/img/tepung.jpg&quot;
+class=&quot;card-img-top&quot; alt=&quot;gambar&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;card-body&quot;&gt;</p>
+
+<p class=MsoNormal>            &lt;h5 class=&quot;card-title&quot;&gt;Tepung Terigu&lt;/h5&gt;</p>
+
+<p class=MsoNormal>                &lt;p class=&quot;card-text&quot;&gt;</p>
+
+<p class=MsoNormal>                Tepung Terigu adalah suatu bahan makanan
+yang terbuat dari gandum yang bisa dibuat banyak makanan.</p>
+
+<p class=MsoNormal>                &lt;/p&gt;</p>
+
+<p class=MsoNormal>        &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;ul class=&quot;list-group list-group-flush&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;li class=&quot;list-group-item&quot;&gt;Harga :
+Rp.17.000.-/Kg&lt;/li&gt;</p>
+
+<p class=MsoNormal>    &lt;/ul&gt;</p>
+
+<p class=MsoNormal>    &lt;div class=&quot;card-body&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;a href=&quot;#&quot;
+class=&quot;card-link&quot;&gt;Lihat&lt;/a&gt;</p>
+
+<p class=MsoNormal>        &lt;a href=&quot;#&quot;
+class=&quot;card-link&quot;&gt;Beli&lt;/a&gt;</p>
+
+<p class=MsoNormal>    &lt;/div&gt;</p>
+
+<p class=MsoNormal>&lt;/div&gt;</p>
+
+<p class=MsoNormal>        &lt;footer class=&quot;footer&quot;&gt;</p>
+
+<p class=MsoNormal>                &lt;div
+class=&quot;container-fluid&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;nav class=&quot;pull-left&quot;&gt;</p>
+
+<p class=MsoNormal>                        &lt;ul class=&quot;nav&quot;&gt;</p>
+
+<p class=MsoNormal>                            &lt;li
+class=&quot;nav-item&quot;&gt;</p>
+
+<p class=MsoNormal>                                &lt;a
+class=&quot;nav-link&quot; href=&quot;#&quot;&gt;</p>
+
+<p class=MsoNormal>                                    Al-Khawarizmi Team</p>
+
+<p class=MsoNormal>                                &lt;/a&gt;</p>
+
+<p class=MsoNormal>                            &lt;/li&gt;</p>
+
+<p class=MsoNormal>                            &lt;li
+class=&quot;nav-item&quot;&gt;</p>
+
+<p class=MsoNormal>                                &lt;a
+class=&quot;nav-link&quot; href=&quot;../assets/html/CS.html&quot;&gt;</p>
+
+<p class=MsoNormal>                                    Help</p>
+
+<p class=MsoNormal>                                &lt;/a&gt;</p>
+
+<p class=MsoNormal>                            &lt;/li&gt;</p>
+
+<p class=MsoNormal>                        &lt;/ul&gt;</p>
+
+<p class=MsoNormal>                    &lt;/nav&gt;</p>
+
+<p class=MsoNormal>                    &lt;div class=&quot;copyright
+ml-auto&quot;&gt;</p>
+
+<p class=MsoNormal>                        2019, made with &lt;i class=&quot;fa
+fa-heart heart text-danger&quot;&gt;&lt;/i&gt; by &lt;a
+href=&quot;#&quot;&gt;Al-Khawarizmi Team&lt;/a&gt;</p>
+
+<p class=MsoNormal>                    &lt;/div&gt;              </p>
+
+<p class=MsoNormal>                &lt;/div&gt;</p>
+
+<p class=MsoNormal>            &lt;/footer&gt;</p>
+
+<p class=MsoNormal>        &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;!--   Core JS Files   --&gt;</p>
+
+<p class=MsoNormal>    &lt;script src=&quot;../assets/js/core/jquery.3.2.1.min.js&quot;&gt;&lt;/script&gt;</p>
+
+<p class=MsoNormal>    &lt;script
+src=&quot;../assets/js/core/popper.min.js&quot;&gt;&lt;/script&gt;</p>
+
+<p class=MsoNormal>    &lt;script
+src=&quot;../assets/js/core/bootstrap.min.js&quot;&gt;&lt;/script&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;!-- jQuery UI --&gt;</p>
+
+<p class=MsoNormal>    &lt;script
+src=&quot;../assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js&quot;&gt;&lt;/script&gt;</p>
+
+<p class=MsoNormal>    &lt;script
+src=&quot;../assets/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js&quot;&gt;&lt;/script&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;!-- jQuery Scrollbar --&gt;</p>
+
+<p class=MsoNormal>    &lt;script
+src=&quot;../assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js&quot;&gt;&lt;/script&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;!-- Chart JS --&gt;</p>
+
+<p class=MsoNormal>    &lt;script
+src=&quot;../assets/js/plugin/chart.js/chart.min.js&quot;&gt;&lt;/script&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;!-- jQuery Sparkline --&gt;</p>
+
+<p class=MsoNormal>    &lt;script
+src=&quot;../assets/js/plugin/jquery.sparkline/jquery.sparkline.min.js&quot;&gt;&lt;/script&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;!-- Chart Circle --&gt;</p>
+
+<p class=MsoNormal>    &lt;script src=&quot;../assets/js/plugin/chart-circle/circles.min.js&quot;&gt;&lt;/script&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;!-- Datatables --&gt;</p>
+
+<p class=MsoNormal>    &lt;script
+src=&quot;../assets/js/plugin/datatables/datatables.min.js&quot;&gt;&lt;/script&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;!-- Bootstrap Notify --&gt;</p>
+
+<p class=MsoNormal>    &lt;script
+src=&quot;../assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js&quot;&gt;&lt;/script&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;!-- jQuery Vector Maps --&gt;</p>
+
+<p class=MsoNormal>    &lt;script
+src=&quot;../assets/js/plugin/jqvmap/jquery.vmap.min.js&quot;&gt;&lt;/script&gt;</p>
+
+<p class=MsoNormal>    &lt;script
+src=&quot;../assets/js/plugin/jqvmap/maps/jquery.vmap.world.js&quot;&gt;&lt;/script&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;!-- Sweet Alert --&gt;</p>
+
+<p class=MsoNormal>    &lt;script src=&quot;../assets/js/plugin/sweetalert/sweetalert.min.js&quot;&gt;&lt;/script&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;!-- Atlantis JS --&gt;</p>
+
+<p class=MsoNormal>    &lt;script
+src=&quot;../assets/js/atlantis.min.js&quot;&gt;&lt;/script&gt;</p>
+
+<p class=MsoNormal>&lt;/body&gt;</p>
+
+<p class=MsoNormal>&lt;/html&gt;</p>
+
+</div>
+
+</body>
+
+</html>
